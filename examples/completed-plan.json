@@ -1,0 +1,122 @@
+{
+  "schema": "leave-transition-plan",
+  "version": 2,
+  "fields": {
+    "overview-0": "Draft \u2014 employee review pending",
+    "overview-1": "Pending",
+    "overview-2": "Pending",
+    "overview-3": "Morgan Lee (fictional)",
+    "overview-4": "Operations Coordinator",
+    "overview-5": "Cedar Studio (fictional)",
+    "overview-6": "Alex Rivera",
+    "overview-7": "2027-03-05",
+    "overview-8": "2027-06-07 (estimated)",
+    "boundaries-0": "Unresolved: Jamie/Taylor ownership, meeting delegate, approval limits, queue access, tracker documentation. Ask Alex to resolve coverage and approval decisions. Employee and manager reviews are pending [S8].",
+    "boundaries-1": "No routine contact during leave. Route questions to Alex. No emergency contact arrangement agreed [S7].",
+    "final-check-0": false,
+    "final-check-1": false,
+    "final-check-2": false,
+    "final-check-3": false,
+    "final-check-4": false,
+    "final-check-5": false,
+    "final-check-6": false,
+    "return-0": "Arrange catch-up with Alex and interim owners after return; exact date pending. Review decisions and transfer ownership explicitly [S7]."
+  },
+  "tables": {
+    "responsibilities": [
+      [
+        "Invoice intake",
+        "Tuesday",
+        "Riley \u2014 Confirmed by Alex and Riley, Feb 17 [S3]",
+        "Check purchasing queue; access still pending [S5]"
+      ],
+      [
+        "Supplier tracker",
+        "Thursday",
+        "Jamie \u2014 Proposed; not yet asked [S1]",
+        "How-to missing; owner/date for documentation unresolved [S6]"
+      ]
+    ],
+    "contacts": [
+      [
+        "Facilities team",
+        "Move logistics",
+        "Shared Facilities channel [S2]"
+      ],
+      [
+        "Purchasing team",
+        "Invoice questions",
+        "Backup contact [S3]"
+      ]
+    ],
+    "team": [
+      [
+        "Not applicable",
+        "No direct reports",
+        "Individual-contributor scenario"
+      ]
+    ],
+    "decisions": [
+      [
+        "Spending approval",
+        "Alex retains authority [S3]",
+        "Approval limits need manager confirmation [S3]"
+      ],
+      [
+        "Meeting coverage",
+        "Needs confirmation",
+        "Needs manager decision [S4]"
+      ]
+    ],
+    "meetings": [
+      [
+        "Vendor coordination",
+        "Wednesday",
+        "Report blockers; record actions",
+        "Delegate needs confirmation [S4]; schedule does not prove attendance"
+      ]
+    ],
+    "systems": [
+      [
+        "Purchasing queue",
+        "Invoice intake",
+        "Riley \u2014 access requested [S5]",
+        "Pending IT confirmation"
+      ]
+    ],
+    "projects": [
+      [
+        "Workspace move",
+        "Planning [S2]",
+        "Obtain two vendor quotes",
+        "Taylor \u2014 Proposed, not confirmed",
+        "Delay risks April move; Facilities contact [S2]",
+        "2027-03-12"
+      ]
+    ],
+    "context": [
+      [
+        "Supplier tracker history / workarounds",
+        "Needs employee input; do not infer",
+        "How-to not written [S1]",
+        "Delegate once confirmed"
+      ]
+    ],
+    "training": [
+      [
+        "Invoice intake",
+        "Morgan and Riley",
+        "Shadowing scheduled [S6]",
+        "2027-03-02",
+        "Not completed"
+      ],
+      [
+        "Supplier tracker how-to",
+        "Needs confirmation",
+        "Write instructions [S1, S6]",
+        "Needs confirmation",
+        "Not completed"
+      ]
+    ]
+  }
+}
