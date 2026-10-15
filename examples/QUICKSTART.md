@@ -1,24 +1,26 @@
 # First run: agent prefills, employee edits
 
-Everything in this example is fictional. You do not need to connect Slack, Gmail or company accounts.
+Everything in this example is fictional. You do not need to connect Slack, Gmail, Notion or company accounts.
 
-1. Open [sample-notes.md](sample-notes.md), [the IC prompt](../prompts/individual-contributor.md) and [the IC page structure](../templates/individual-contributor.md).
-2. In your approved assistant, copy the **entire prompt**, the page structure and all sample notes.
-3. Configure these values:
-   - Role/team: `Operations Coordinator, Cedar Studio`
-   - Timezone: `America/Toronto`
-   - Authorized sources: `NONE — supplied fictional notes only`
-   - Reporting window: `2027-02-15 to 2027-02-18, plus the listed future commitments`
-   - Last working day: `2027-03-05`
-   - Expected return: `2027-06-07 (estimated)`
-   - Notion destination: paste the exact URL of your own test parent page/database. If you have no writable Notion connection, use `NONE`.
-4. Add: **Use only these fictional notes. Do not search workplace sources. If the selected test Notion destination is writable, create one draft page there for me to edit. I have verified that the test destination’s audience is appropriate. Otherwise provide the full draft in chat and clearly say no Notion page was created. Leave missing facts and proposed owners unconfirmed.**
-5. The agent should prefill the plan, return the real page link if created, and give a short review queue. It should not require you to fill every field first.
-6. Check that Riley is a confirmed invoice owner, Jamie and Taylor remain proposed, access and training are pending, the return date is estimated, and the whole page is still a Draft. “Context only I know” should ask you for missing context, not invent it.
-7. Edit the page directly: add this fictional employee detail: **We tried a monthly supplier update, but missed quote changes; keep the weekly cadence.** Confirm this as an employee-provided addition. Do not change Jamie/Taylor to Confirmed without acceptance and manager confirmation.
-8. Ask: **Reread the same page and add that context if it is not already there. Preserve all my edits. Do not create another page.**
-9. Compare with [the reference draft](notion-draft.md) and [the illustrative review cycle](review-cycle.md). These are authored examples, not records of a live Notion test.
+## Fastest first run — one copy, no setup
 
-## Without a writable Notion connection
+1. Open [Copy this entire fictional demo into your assistant](COPY_PASTE_DEMO.md).
+2. On GitHub, choose **Raw**, then copy the entire file into a new chat with your AI assistant and send it. The prompt, configuration, IC page structure and notes are already combined. No edits are needed.
+3. The agent should return a complete **Synthetic Demo** handover draft in chat and a short review queue. It should clearly say no Notion page was created.
+4. Check that Riley is a confirmed invoice owner, Jamie and Taylor remain proposed, access and training are pending, the return date is estimated, and the whole page is still a Draft. “Context only I know” should ask you for missing context, not invent it.
+5. Compare with [the reference draft](notion-draft.md) and [the illustrative review cycle](review-cycle.md). These are authored examples, not records of a live Notion test.
 
-Use `NOTION_DESTINATION: NONE`. The agent should return the same structured draft in chat. You can paste it manually into Notion; this is a fallback, not the default experience. You can also open [the local HTML example](completed-plan.html) or import [completed-plan.json](completed-plan.json) into the [blank HTML template](../templates/leave-transition-plan.html). The HTML file itself has no Notion connection.
+## Optional: try the draft in Notion
+
+The one-copy demo deliberately uses chat output so anyone can try it without accounts. The full workflow supports agent prefill in Notion, followed by employee edits.
+
+1. After the chat demo, provide the exact URL of your own test parent page or database. Confirm its audience is appropriate for fictional data, and explicitly ask the assistant to create one editable draft there using the generated handover. Keep source access limited to the supplied notes. This separate request authorizes the Notion write; the initial demo does not.
+2. If writing is supported, the agent should create the page, read it back and return its actual link. If unavailable, it should explain the limitation; you can paste the draft manually.
+3. Edit the page directly: add this fictional employee detail: **We tried a monthly supplier update, but missed quote changes; keep the weekly cadence.** Confirm this as an employee-provided addition. Do not change Jamie/Taylor to Confirmed without acceptance and manager confirmation.
+4. Share the same page link and ask: **Reread this page and add that context if it is not already there. Preserve all my edits. Do not create another page.**
+
+## Customize after your first run
+
+The separate [IC prompt](../prompts/individual-contributor.md), [IC page structure](../templates/individual-contributor.md) and [sample notes](sample-notes.md) remain available for customization. For your own handover, follow [Getting Started](../GETTING_STARTED.md). The combined demo bundles these source files with fictional configuration; keep it in sync when those sources change.
+
+You can also open [the local HTML example](completed-plan.html) or import [completed-plan.json](completed-plan.json) into the [blank HTML template](../templates/leave-transition-plan.html). The HTML file itself has no Notion connection.
