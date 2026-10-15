@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.log
+*.bak
+*.tmp
+node_modules/
+
+# Keep personal handover data out of the repository.
+private/
+exports/
+real-data/
+*.json
+!package.json
+!package-lock.json
+!examples/completed-plan.json
