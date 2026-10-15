@@ -35,7 +35,9 @@ The agent asks targeted questions for information that cannot be retrieved—esp
 
 ## Quick first run
 
-Follow [the fictional walkthrough](examples/QUICKSTART.md). Start with no connected workplace accounts; optionally use a test Notion destination to see the agent create the draft. A chat-only fallback is available when Notion writing is unavailable.
+Open [**Copy this entire fictional demo into your assistant**](examples/COPY_PASTE_DEMO.md), choose **Raw**, and paste the whole file into a new chat. The prompt, configuration, page structure and fictional notes are already combined—no edits or connected accounts needed. This first run produces a Notion-ready draft in chat.
+
+Follow [the fictional walkthrough](examples/QUICKSTART.md) to check the result and optionally try creating and editing the draft in a test Notion destination.
 
 For your own handover, see [Getting Started](GETTING_STARTED.md), then choose the [individual contributor prompt](prompts/individual-contributor.md) or [people manager prompt](prompts/people-manager.md). Copy the entire prompt and the matching [IC](templates/individual-contributor.md) or [manager](templates/people-manager.md) page structure into your assistant.
 
