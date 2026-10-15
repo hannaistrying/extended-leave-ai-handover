@@ -24,6 +24,16 @@ The agent prefills what it can support from authorized sources. The employee add
 
 The screenshot shows the optional local HTML version, not the Notion interface. All demo information is fictional. Download HTML files to run them locally; GitHub displays their source. No hosted demo is included.
 
+## Prototype walkthrough — fictional illustration
+
+![Fictionalized illustration of agent configuration, employee role confirmation, and source retrieval](assets/prototype-fictional-preview.png)
+
+*AI-edited illustration based on an earlier prototype. Cedar Studio, Morgan Lee and Alex Rivera are fictional; identifying details and wording were changed. This is not an original screenshot or a record of a new test.*
+
+The three panels illustrate agent configuration, employee confirmation of role information, and retrieval in progress. They do not demonstrate completed Notion page creation or preservation of employee edits.
+
+[View the full-size illustration](assets/prototype-fictional-preview.png).
+
 ## The workflow
 
 1. **Choose sources and destination.** Use approved workplace tools and an exact Notion page or database.
